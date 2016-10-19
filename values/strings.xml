@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Plus Minus Zero</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="instruction">Before getting started, select how many digits you want to play with.
+    Depending on the digits you chose, the game picks random number with distinct numbers and no 0 in it.
+    Your mission is to find this number.
+    After every number you guess, you will be shown the count of digits that you guessed right and wrong.
+    + sign means how many numbers you found and that they are at correct place.
+    - sign means how many numbers you found and that they are not at correct place.
+    0 means that you could not find any number at all.
+    + signs are always shown first, later - signs follow.
+    The order of this signs is not the order of the numbers you guessed.</string>
+</resources>
