@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/menubackground"
+    android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:id="@+id/tvInstruction"
+        android:textSize="35sp"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000"
+        android:text="Digit Number \nYou Want To Play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textStyle="italic"
+        android:textSize="30sp"
+        android:id="@+id/tvChooseDigit"
+        android:textColor="#000"
+        android:layout_marginLeft="20dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/ivBracket"
+        android:text="  Pick One"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+    <ImageView
+        android:id="@+id/ivBracket"
+        android:layout_marginLeft="20dp"
+        android:layout_alignBottom="@+id/rgRadioGroup"
+        android:layout_alignTop="@+id/rgRadioGroup"
+        android:background="@drawable/bracket"
+        android:layout_toRightOf="@+id/rgRadioGroup"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content" />
+
+
+    <RadioGroup
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rgRadioGroup"
+        android:checkedButton="@+id/rbThree"
+        >
+
+
+        <RadioButton
+            android:textColor="#000"
+            android:layout_marginBottom="10dp"
+            android:paddingStart="20dp"
+            android:button="@drawable/radiobuttonbackground"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbThree"
+            android:textSize="40sp"
+            android:text="3" />
+
+        <RadioButton
+            android:textColor="#000"
+            android:textSize="40sp"
+            android:paddingStart="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:button="@drawable/radiobuttonbackground"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbFour"
+            android:text="4" />
+
+        <RadioButton
+            android:textColor="#000"
+            android:paddingStart="20dp"
+            android:textSize="40sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:button="@drawable/radiobuttonbackground"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbFive"
+            android:text="5" />
+
+    </RadioGroup>
+
+
+
+    <TextView
+        android:textColor="#000"
+        android:layout_above="@+id/tvCancel"
+        android:layout_centerHorizontal="true"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:id="@+id/tvStart"
+        android:text="START"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textColor="#000"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textSize="50sp"
+        android:layout_marginBottom="20dp"
+        android:text="CANCEL"
+        android:id="@+id/tvCancel"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

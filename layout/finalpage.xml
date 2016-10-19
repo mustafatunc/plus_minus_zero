@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/finalpage"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvCong"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="40sp"
+        android:text="Congratulations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="15dp"
+        android:id="@+id/tvAchievement"
+        android:layout_marginTop="160dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="40sp"
+        android:text="This is awesome!\nJust one move"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+
+    <TextView
+        android:textColor="#000"
+        android:layout_above="@+id/tvExitGame"
+        android:layout_centerHorizontal="true"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:id="@+id/tvPlayAgain"
+        android:text="PLAY AGAIN ?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textColor="#000"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="50sp"
+        android:layout_marginBottom="30dp"
+        android:text="EXIT"
+        android:id="@+id/tvExitGame"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+
+</RelativeLayout>

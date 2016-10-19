@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tempthree"
+    >
+    <ScrollView
+        android:id="@+id/svScroll"
+        android:layout_above="@+id/ivLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_marginRight="3dp"
+                android:orientation="vertical"
+                android:id="@+id/llLinear0"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                </LinearLayout>
+            <LinearLayout
+                android:layout_marginRight="3dp"
+                android:orientation="vertical"
+                android:id="@+id/llLinear1"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/llLinear2"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    <ImageView
+        android:id="@+id/ivLine"
+        android:layout_above="@+id/tvNumberToBeShown"
+        android:background="@drawable/line"
+        android:layout_width="match_parent"
+        android:layout_height="6dp" />
+    <ImageView
+        android:id="@+id/ivLineUp"
+        android:background="@drawable/line"
+        android:layout_width="match_parent"
+        android:layout_height="6dp" />
+    <ImageView
+        android:layout_below="@+id/ivLineUp"
+        android:layout_alignParentLeft="true"
+        android:layout_above="@+id/ivLine"
+        android:id="@+id/ivLineLeft"
+        android:background="@drawable/linevertical"
+        android:layout_width="6dp"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_below="@+id/ivLineUp"
+        android:layout_above="@+id/ivLine"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/linevertical"
+        android:layout_width="6dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvTryNumber"
+        android:layout_marginLeft="5dp"
+        android:layout_above="@+id/rlTwo"
+        android:textSize="30sp"
+        android:textColor="#000"
+        android:text="0"
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/rlTwo"
+        android:ellipsize="end"
+        android:maxLength="5"
+        android:id="@+id/tvNumberToBeShown"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:minLines="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/rlTwo"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnOne"
+            android:background="@drawable/onep"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <Button
+            android:id="@+id/btnTwo"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/btnOne"
+            android:background="@drawable/twop"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <Button
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/btnTwo"
+            android:id="@+id/btnThree"
+            android:background="@drawable/threep"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+        <Button
+            android:id="@+id/btnFour"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/fourp"
+            android:layout_below="@+id/btnOne"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/btnFive"
+            android:layout_below="@+id/btnTwo"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/btnFour"
+            android:background="@drawable/fivep"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <Button
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/btnFive"
+            android:id="@+id/btnSix"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/btnThree"
+            android:background="@drawable/sixp"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/btnSeven"
+            android:layout_below="@+id/btnFour"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/sevenp"
+        />
+        <Button
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/btnSeven"
+            android:layout_marginTop="10dp"
+            android:id="@+id/btnEight"
+            android:layout_below="@+id/btnFive"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/eightp"
+            />
+        <Button
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/btnEight"
+            android:layout_marginTop="10dp"
+            android:id="@+id/btnNine"
+            android:layout_below="@+id/btnSix"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/ninep"
+            />
+        <Button
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/btnTell"
+            android:layout_below="@+id/btnNine"
+            android:id="@+id/btnDelete"
+            android:background="@drawable/del"
+            android:layout_width="82dp"
+            android:layout_height="50dp" />
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/btnSeven"
+            android:id="@+id/btnTell"
+            android:background="@drawable/tell"
+            android:layout_width="82dp"
+            android:layout_height="50dp" />
+
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
