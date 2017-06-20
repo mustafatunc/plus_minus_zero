@@ -10,3 +10,8 @@ And 0 means, as you can guess, you have not found any figures.
 After you find the number you earn no points, no bonuses, no madals no nothing :)
 
 
+![alt text](https://github.com/mustafatunc/plus_minus_zero/blob/master/gamescreen.png)
+
+![alt text](https://github.com/mustafatunc/plus_minus_zero/blob/master/finished.png)
+
+![alt text](https://github.com/mustafatunc/plus_minus_zero/blob/master/menu.png)
